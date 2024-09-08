@@ -8,7 +8,7 @@ function submitCard() {
   const card = document.querySelector(".card");
   card.remove();
 
-  completedimage.innerHTML = "<img src='illustration-thank-you.svg'>";
+  completedimage.innerHTML = "<img src='images/illustration-thank-you.svg'>";
   thankyou.innerHTML = "<h1> Thank you! </h1>";
   appreciate.innerHTML =
     "<p> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>";
